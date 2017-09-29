@@ -1,0 +1,3 @@
+Why not physics is a particle based Physics engine that simulates Cloth movement.
+
+* This contains a space divide searching for nearest neighbors.
