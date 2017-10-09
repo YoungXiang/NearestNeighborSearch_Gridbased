@@ -7,7 +7,7 @@ This is designed to find the nearest vertex of A object in B object. In detail: 
   1. Open the scene under Assets\YnPhyx\_Scene\GridBasedSearch.unity
   2. Run.
   
-# How it work?
+# How it works?
   1. This method is designed based on the Grid world defined by GridCenter(a Vector3, not the origin though), GridNum(how many grids there are in x, y, z dimension), GridSize(x, y, z extent of each grid).
      No extra memory needed for each grid, ie, there is no class Grid. 
   2. Each vertex is then hashed into each grid, and this procedure is really fast.
