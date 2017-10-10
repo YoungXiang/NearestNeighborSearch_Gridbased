@@ -15,5 +15,5 @@ This is designed to find the nearest vertex of A object in B object. In detail: 
   
 # Limitation
   This method is super fast. Note that I haven't put the MakeGroup procedure offline yet, that will make this even faster.
-  But it has its limitations: The Grid world is defined on initialization, and you should define the size of the world carefully to suit your need.
+  But it has its limitations: The Grid world is defined on initialization, and you should define the size of the world carefully to suit your need. If triangulate meshes vary from size, it might not be the best solution.
   
